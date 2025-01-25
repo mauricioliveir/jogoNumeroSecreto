@@ -24,13 +24,14 @@ Inclui funcionalidade de reinício para começar um novo jogo após acertar o n�
 ---
 
 ## 📸 Screenshots
-![Tela Inicial](assets/Inicio.jpg)
-![Inserir Número Válido](assets/Inserir Numero Valido.jpg)
-![Número Maior](assets/Numero Maior.jpg)
-![Número Menor](assets/Numero Menor.jpg)
-![Acertou](assets/Acertou.jpg)
 
----
+| Tela                     | Imagem                                                                                  | Descrição                                                        |
+|--------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| **Tela Inicial**          | ![Tela Inicial](assets/Inicio.jpg)                                                       | A tela inicial do jogo, onde o jogador começa a adivinhar.      |
+| **Inserir Número Válido** | ![Inserir Número Válido](assets/Inserir-Numero-Valido.jpg)                               | O jogador insere um número dentro do intervalo permitido.       |
+| **Número Maior**          | ![Número Maior](assets/Numero-Maior.jpg)                                                 | O sistema informa que o número secreto é maior que o palpite.   |
+| **Número Menor**          | ![Número Menor](assets/Numero-Menor.jpg)                                                 | O sistema informa que o número secreto é menor que o palpite.   |
+| **Acertou**               | ![Acertou](assets/Acertou.jpg)                                                          | A tela que aparece quando o jogador acerta o número secreto.    |
 
 
 ## 🧩 Estrutura do Código
