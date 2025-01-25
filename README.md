@@ -24,9 +24,14 @@ Inclui funcionalidade de reinício para começar um novo jogo após acertar o n�
 ---
 
 ## 📸 Screenshots
-*(Adicione aqui imagens do jogo em funcionamento, como a tela inicial, uma tela de tentativa, e a mensagem de acerto.)*
+![Tela Inicial](assets/Inicio.jpg)
+![Inserir Número Válido](assets/Inserir Numero Valido.jpg)
+![Número Maior](assets/Numero Maior.jpg)
+![Número Menor](assets/Numero Menor.jpg)
+![Acertou](assets/Acertou.jpg)
 
 ---
+
 
 ## 🧩 Estrutura do Código
 
@@ -56,7 +61,7 @@ Inclui funcionalidade de reinício para começar um novo jogo após acertar o n�
 
 2. **Abra o arquivo `index.html` no seu navegador**.
 
-3. **Insira um número entre 1 e o limite configurado** (valor padrão: 10).
+3. **Insira um número entre 1 e o limite configurado** (valor padrão: 50).
 
 4. **Clique no botão "Chutar" ou pressione Enter**.
 
@@ -72,7 +77,7 @@ Inclui funcionalidade de reinício para começar um novo jogo após acertar o n�
 Altere o valor da constante `numeroLimite` no código JavaScript para definir o intervalo de números possíveis:
 
 ```javascript
-const numeroLimite = 20; // Limite superior do número secreto
+const numeroLimite = 50; 
 ```
 
 ---
