@@ -26,8 +26,9 @@ function inicializarJogo() {
 inicializarJogo();
 
 function verificarChute() {
-    const chute = parseInt(campoChute.value);
+    const chute = parseInt(campoChute.value.trim()); // Removendo espaços extras e convertendo para número
 
+    // Verificando se o chute é um número válido e dentro do intervalo
     if (isNaN(chute) || chute < 1 || chute > numeroLimite) {
         exibirTextoNaTela(mensagem, `Por favor, insira um número entre 1 e ${numeroLimite}.`);
         limparCampoDeEntrada();
@@ -49,6 +50,7 @@ function verificarChute() {
         limparCampoDeEntrada();
     }
 }
+
 
 function gerarNumeroAleatorio() {
     if (listaDeNumerosSorteados.length === numeroLimite) {
