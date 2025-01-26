@@ -26,9 +26,9 @@ function inicializarJogo() {
 inicializarJogo();
 
 function verificarChute() {
-    const chute = parseInt(campoChute.value.trim()); // Removendo espaços extras e convertendo para número
+    const chute = parseInt(campoChute.value.trim()); 
 
-    // Verificando se o chute é um número válido e dentro do intervalo
+    
     if (isNaN(chute) || chute < 1 || chute > numeroLimite) {
         exibirTextoNaTela(mensagem, `Por favor, insira um número entre 1 e ${numeroLimite}.`);
         limparCampoDeEntrada();
@@ -110,5 +110,5 @@ campoChute.addEventListener('keydown', function (event) {
     }
 });
 
-botaoReiniciar.addEventListener('click', reiniciarJogo);
-botaoChute.addEventListener('click', verificarChute);
+botaoReiniciar.addEventListener('click', reiniciarJogo());
+botaoChute.addEventListener('click', verificarChute());
