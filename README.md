@@ -27,11 +27,11 @@ Inclui funcionalidade de reinício para começar um novo jogo após acertar o n�
 
 | Tela                     | Imagem                                                                                  | Descrição                                                        |
 |--------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| **Tela Inicial**          | ![Tela Inicial](assets/Inicio.jpg)                                                       | A tela inicial do jogo, onde o jogador começa a adivinhar.      |
-| **Inserir Número Válido** | ![Inserir Número Válido](assets/Inserir-Numero-Valido.jpg)                               | O jogador insere um número dentro do intervalo permitido.       |
-| **Número Maior**          | ![Número Maior](assets/Numero-Maior.jpg)                                                 | O sistema informa que o número secreto é maior que o palpite.   |
-| **Número Menor**          | ![Número Menor](assets/Numero-Menor.jpg)                                                 | O sistema informa que o número secreto é menor que o palpite.   |
-| **Acertou**               | ![Acertou](assets/Acertou.jpg)                                                          | A tela que aparece quando o jogador acerta o número secreto.    |
+| **Tela Inicial**          | ![Tela Inicial](assets/Inicio.png)                                                       | A tela inicial do jogo, onde o jogador começa a adivinhar.      |
+| **Inserir Número Válido** | ![Inserir Número Válido](assets/Inserir%20Numero%20Valido.png)                               | O jogador insere um número dentro do intervalo permitido.       |
+| **Número Maior**          | ![Número Maior](assets/Numero%20Maior.png)                                                 | O sistema informa que o número secreto é maior que o palpite.   |
+| **Número Menor**          | ![Número Menor](assets/Numero%20Menor.png)                                                 | O sistema informa que o número secreto é menor que o palpite.   |
+| **Acertou**               | ![Acertou](assets/Acertou.png)                                                          | A tela que aparece quando o jogador acerta o número secreto.    |
 
 
 ## 🧩 Estrutura do Código
